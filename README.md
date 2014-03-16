@@ -1,4 +1,4 @@
-opensupports
+OpenSupports
 ============
 
-OpenSupports is a open source support ticket system
+OpenSupports is an open source support ticket system.
