@@ -1,9 +1,9 @@
 <?php
-/*if(file_exists("install/index.php")){
+if(file_exists("install/index.php")){
 	header('Location: install/index.php');
 	exit;
 }
-*/
+
 /* Get Acces information */
 require "config.php";
 /*Start Session*/
