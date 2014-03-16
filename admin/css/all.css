@@ -1,0 +1,541 @@
+#main
+{
+	width: 100%;
+}
+#installplugintitle
+{
+	font: medium / 1em Arial;
+	text-align: left;
+}
+#header
+{
+	background: url(../img/header_texture.jpg) repeat-x 0px 1px;
+	width: 100%;
+	height: 136px;
+}
+#headerlogo
+{
+	background: url(../img/logo_128.png) no-repeat;
+	width: 294px;
+	height: 122px;
+}
+#middle
+{
+	text-align: center;
+	margin-left: 0px;
+	margin-right: auto;
+	margin-top: 104px;
+	width: 98%;
+}
+#disablesystem
+{
+	background: #35655B;
+	color: #FFFFFF;
+	font: 300 1em Helvetica;
+	margin-top: 19px;
+	margin-bottom: 10px;
+}
+#disablesystem TD
+{
+	padding-right: 22px;
+	vertical-align: middle;
+}
+#adminloginbox
+{
+}
+.loginbox
+{
+	border: 0.2em solid #E1E1E1;
+	width: 253px;
+	font: normal 1em Helvetica;
+	color: #A2A2A2;
+	background: #FCFCFC;
+	float: left;
+	text-align: center;
+	margin-right: 24px;
+}
+.loginbox-filed
+{
+}
+.loginbox-name
+{
+	font: normal lighter small / 1em sans-serif;
+}
+.loginbox-title
+{
+	margin-bottom: 15px;
+	margin-top: 12px;
+	text-transform: uppercase;
+	font: normal bold small / 1em sans-serif;
+}
+.loginbox-user
+{
+	background: #FFFFFF;
+	border: 0;
+	text-indent: 0.8em;
+	font: 300 medium / 1em sans-serif;
+	color: #CACACA;
+	background-image: url(../img/userlogin.jpg);
+	background-repeat: no-repeat;
+	height: 49px;
+	width: 212px;
+}
+.loginbox-pass
+{
+	background: #FFFFFF;
+	border: 0;
+	text-indent: 0.8em;
+	font: 300 medium / 1em sans-serif;
+	color: #CACACA;
+	background-image: url(../img/passlogin.jpg);
+	background-repeat: no-repeat;
+	height: 49px;
+	width: 212px;
+	margin-top: 15px;
+}
+.loginbox-user:focus
+{
+	outline: none;
+}
+.loginbox-pass:focus
+{
+	outline: none;
+}
+.loginbox-button
+{
+	background: #34495E;
+	border: 0;
+	width: 187px;
+	height: 44px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	color: #FFFFFF;
+	font: normal 10.9pt Helvetica;
+	text-transform: uppercase;
+}
+.button
+{
+	background: #34495E;
+	border: 0;
+	width: 187px;
+	height: 44px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	color: #FFFFFF;
+	font: normal 10.9pt Helvetica;
+	text-transform: uppercase;
+	float: right;
+	margin-right: 9px;
+}
+.button:hover
+{
+	background: #00C399;
+}
+.principal
+{
+	width: 107%;
+}
+.content
+{
+	width: 82%;
+	float: left;
+	margin-left: -3px;
+	background: #FCFCFC;
+	border: thin ridge #E1E1E1;
+	margin-top: 0px;
+}
+.errormessage
+{
+}
+TABLE.listing
+{
+	width: 100%;
+	border-collapse: collapse;
+	color: #FFFFFF;
+	font: normal 9pt Helvetica;
+}
+TABLE.listing TH
+{
+	background: #34495E;
+	color: #FFFFFF;
+	font: normal 12.9pt Helvetica;
+	text-align: left;
+	padding-left: 9px;
+}
+TABLE.listing TH.first TABLE.listing TH.last
+{
+}
+TABLE.listing TD
+{
+	background: #00C399;
+}
+TABLE.listing TD.first
+{
+	background: #F53230;
+	width: auto;
+}
+#table-logs .first
+{
+	width: 136px;
+}
+#pluginlist
+{
+}
+#propertieslist
+{
+}
+#userticketlist
+{
+}
+TABLE.formtable
+{
+	width: 100%;
+}
+TABLE.formtable .tdtext
+{
+	width: 183px;
+	background: #00C399;
+	font: normal 1em Helvetica;
+	color: #FFFFFF;
+}
+TABLE.formtable .tdform
+{
+	text-align: left;
+	padding-left: 17px;
+}
+TABLE.fileform
+{
+}
+.input-text
+{
+	border: 0;
+	text-indent: 0.8em;
+	font: 300 medium / 1em sans-serif;
+	color: #525252;
+	background-image: url(../img/userlogin.jpg);
+	background-repeat: no-repeat;
+	height: 24px;
+	width: 212px;
+	border-bottom: 1px solid #E0E0E0;
+}
+.input-email
+{
+	border: 0;
+	text-indent: 0.5em;
+	font: 300 medium / 1em sans-serif;
+	color: #525252;
+	background-image: url(../img/userlogin.jpg);
+	background-repeat: no-repeat;
+	height: 24px;
+	width: 212px;
+	border-bottom: 1px solid #E0E0E0;
+}
+.input-text:focus
+{
+	background: url(../img/passlogin.jpg) no-repeat;
+	outline: none;
+}
+.input-email:focus
+{
+	background: url(../img/passlogin.jpg) no-repeat;
+	outline: none;
+}
+.input-email
+{
+}
+.input-checkbox:checked
+{
+	background: url(../img/checkbox_1.jpg) no-repeat;
+}
+.input-select
+{
+	background: #3D5165 no-repeat;
+	border: 0;
+	background-position: 3px center;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	text-indent: 0.01px;
+	text-overflow: '';
+	background-repeat: no-repeat;
+	width: 125px;
+	height: 30px;
+	padding-left: 8px;
+	font: normal 10pt Arial;
+	text-align: left;
+	color: #FFFFFF;
+	padding-top: 2px;
+}
+.input-textarea
+{
+	font: normal 1em Arial;
+}
+.input-file
+{
+}
+.fileform TD
+{
+	text-align: left;
+}
+.button #mmailform
+{
+}
+#fromstaff
+{
+}
+.input-checkbox2
+{
+	background: url(../img/checkbox2_0.png) no-repeat;
+	-webkit-appearance: none;
+	width: 111px;
+	height: 41px;
+}
+.input-checkbox2:checked
+{
+	background: url(../img/checkbox2_1.png) no-repeat;
+}
+#newpropertyform
+{
+}
+#newfilterform
+{
+}
+#editpropertyform
+{
+}
+.menumode
+{
+	float: left;
+}
+.menumode-title
+{
+	font: normal 9pt Helvetica;
+	text-transform: uppercase;
+	background: url(../img/topnav-li3.jpg) no-repeat;
+	color: #FFFFFF;
+	width: 130px;
+	height: 30px;
+	padding-top: 15px;
+}
+.menumode-nav
+{
+	list-style-type: none;
+	margin-left: -40px;
+	margin-top: 0;
+}
+.menumode-nav A
+{
+	text-decoration: none;
+	color: #FFFFFF;
+	font: normal 9pt Helvetica;
+	text-transform: uppercase;
+}
+.infobox
+{
+	text-align: left;
+	font: 200 small / 1em Helvetica;
+	padding-top: 32px;
+	padding-left: 511px;
+}
+.titlebar
+{
+	text-align: left;
+	margin-left: -3px;
+	background: url(../img/topnav-li3.jpg);
+	color: #FFFFFF;
+	font: normal 13.6pt Helvetica;
+	width: 82%;
+	height: 66px;
+	float: left;
+}
+#hometable
+{
+	width: 100%;
+}
+.toptitle
+{
+	margin-left: 6px;
+	font: larger / 1em sans-serif;
+	margin-top: -7px;
+}
+.toptitle-text
+{
+}
+.topbutton
+{
+}
+.subbutton
+{
+}
+.descriptiontext
+{
+	font: italic small / 1em Arial;
+}
+#languagestable
+{
+}
+#generalstable
+{
+}
+#themestable
+{
+}
+#departmentstable
+{
+	width: 570px;
+}
+.pagenumbers
+{
+}
+.sucessmessage
+{
+	color: #077318;
+	font: 200 large / 1em Helvetica;
+	margin-top: 9px;
+}
+#header
+{
+}
+#top-navigation
+{
+	list-style-type: none;
+	margin-top: 13px;
+	margin-bottom: 0;
+	margin-left: -40px;
+}
+#top-navigation LI
+{
+	background: url(../img/topnav-li.jpg) no-repeat;
+	width: 127px;
+	height: 75px;
+	float: left;
+	text-align: center;
+	padding-top: 30px;
+}
+#top-navigation LI:hover
+{
+	background: url(../img/topnav-li2.jpg) no-repeat;
+}
+#top-navigation LI.active
+{
+	background: url(../img/topnav-li2.jpg) no-repeat;
+}
+#top-navigation A
+{
+	color: #FFFFFF;
+	text-decoration: none;
+	font: normal 9pt Helvetica;
+	text-transform: uppercase;
+}
+.menumode-nav LI
+{
+	background: url(../img/topnav-li.jpg) no-repeat;
+	width: 127px;
+	height: 43px;
+	padding-top: 9px;
+}
+.menumode-nav LI:hover
+{
+	background: url(../img/topnav-li2.jpg);
+}
+#loginboxesdiv
+{
+	width: 577px;
+	margin: 0 auto;
+}
+.route
+{
+	color: #DFDFDF;
+	float: right;
+	font: small / 1em sans-serif;
+	margin-right: 9px;
+}
+TABLE.listing TR
+{
+	border-bottom: 1px dotted #FFFFFF;
+}
+.input-select:focus
+{
+	outline: none;
+}
+.input-textarea:focus
+{
+}
+TABLE.listing TD A
+{
+	text-decoration: none;
+	color: #0A0D85;
+}
+.input-checkbox
+{
+	background: url(../img/checkbox_0.jpg) no-repeat;
+	width: 23px;
+	height: 23px;
+	clear: none;
+	-webkit-appearance: none;
+	margin-bottom: -5px;
+}
+#generalstable .tdform TD
+{
+	/*[empty]width:;*/
+}
+#generalstable A
+{
+	text-decoration: none;
+}
+#generalstable .formtable .tdform
+{
+}
+.extracomment
+{
+	font: italic 8.9pt sans-serif;
+}
+#languagestable TD
+{
+	vertical-align: 0;
+}
+#texteditor
+{
+	font: normal 9.7pt Arial;
+}
+#texteditor TD.texteditortitle
+{
+	font: 200 large / 1em sans-serif;
+	background: #00C399;
+	color: #FFF;
+	vertical-align: middle;
+	padding-left: 10px;
+}
+#texteditor TD.txteditname
+{
+	text-align: right;
+	vertical-align: middle;
+	color: #00C399;
+}
+.sure
+{
+}
+.suretext
+{
+	font: 100 large / 1em Arial;
+	background: #00C399;
+	width: 70%;
+	height: 38px;
+	padding-top: 16px;
+	color: #FFFFFF;
+	float: left;
+}
+.surebutton
+{
+	float: left;
+	text-decoration: none;
+	background: #F53230;
+	color: #FFFFFF;
+	height: 40px;
+	width: 30%;
+	font: 200 medium / 1em Arial;
+	padding-top: 14px;
+}
+.surebutton:hover
+{
+	background: #B81412;
+}

@@ -1,0 +1,465 @@
+/*
+* Some icons come from Flaticon.com
+* ../img/topmenu-plugin.png Icon made by Freepik from Flaticon.com
+* ../img/topmenu-tickets.png Icon made by Freepik from Flaticon.com
+* ../img/topmenu-docs.png Icon made by Freepik from Flaticon.com
+* ../img/topmenu-users.png Icon made by Freepik from Flaticon.com
+* ../img/topmenu-exit.png Icon made by Freepik from Flaticon.com
+ */
+#main
+{
+	margin-left: 20%;
+	margin-right: 20%;
+	width: 780px;
+}
+#middle
+{
+}
+#left-column
+{
+	float: left;
+	height: 318px;
+	background: #FFF;
+	width: 156px;
+	padding-top: 9px;
+	padding-left: 11px;
+	margin-right: 32px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	padding-right: 11px;
+}
+.staffname
+{
+	color: #DD5555;
+}
+#loggedas
+{
+	color: #A7A7A7;
+	font: small / 1em Arial;
+	background: #E2E2E2;
+	width: 100%;
+	text-align: center;
+	height: 26px;
+	padding-top: 9px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+#center-column
+{
+	float: left;
+	margin-left: -16px;
+}
+BODY
+{
+	background: #ECECEC;
+}
+.formtable
+{
+}
+.formtable TD.formtext
+{
+}
+.formtable TD.formsubmit
+{
+}
+#header
+{
+	text-align: center;
+}
+#logohead
+{
+	width: 293px;
+	height: 122px;
+	background: url(../../img/logo_128.png) no-repeat;
+}
+#top-navigation
+{
+	list-style: none;
+	margin-bottom: 122px;
+	margin-left: -18px;
+}
+#top-navigation LI
+{
+	float: left;
+	width: 123px;
+	height: 26px;
+	padding-top: 59px;
+	text-align: center;
+}
+#top-navigation LI:hover
+{
+	float: left;
+	width: 123px;
+	height: 26px;
+	padding-top: 59px;
+	text-align: center;
+}
+LI#topnav-tickets
+{
+	background: url(../img/topmenu-tickets2.png);
+}
+LI#topnav-users
+{
+	background: url(../img/topmenu-users2.png);
+}
+LI#topnav-docs
+{
+	background: url(../img/topmenu-docs2.png);
+}
+LI#topnav-close
+{
+	background: url(../img/topmenu-exit2.png);
+}
+LI#topnav-home-active
+{
+	background: url(../img/topmenu-home.png);
+}
+LI#topnav-tickets-active
+{
+	background: url(../img/topmenu-tickets.png);
+}
+LI#topnav-users-active
+{
+	background: url(../img/topmenu-users.png);
+}
+LI#topnav-docs-active
+{
+	background: url(../img/topmenu-docs.png);
+}
+LI#topnav-plugin-active
+{
+	background: url(../img/topmenu-plugin.png);
+}
+LI#topnav-plugin
+{
+	background: url(../img/topmenu-plugin2.png);
+}
+LI#topnav-plugin:hover
+{
+	background: url(../img/topmenu-plugin.png);
+}
+LI#topnav-docs-active:hover
+{
+	background: url(../img/topmenu-docs.png);
+}
+LI#topnav-users-active:hover
+{
+	background: url(../img/topmenu-users.png);
+}
+LI#topnav-tickets-active:hover
+{
+	background: url(../img/topmenu-tickets.png);
+}
+LI#topnav-home-active:hover
+{
+	background: url(../img/topmenu-home.png);
+}
+LI#topnav-close:hover
+{
+	background: url(../img/topmenu-exit.png);
+}
+LI#topnav-docs:hover
+{
+	background: url(../img/topmenu-docs.png);
+}
+LI#topnav-users:hover
+{
+	background: url(../img/topmenu-users.png);
+}
+LI#topnav-tickets:hover
+{
+	background: url(../img/topmenu-tickets.png);
+}
+LI#topnav-home
+{
+	background: url(../img/topmenu-home2.png);
+}
+LI#topnav-home:hover
+{
+	background: url(../img/topmenu-home.png);
+}
+#topnav-tickets
+{
+}
+#topnav-docs
+{
+}
+.sure
+{
+	height: 53px;
+}
+.suretext
+{
+	margin-top: 6px;
+	margin-left: 7px;
+	text-align: left;
+	font: 100 large / 1em Arial;
+	color: #BC1B2B;
+	padding-top: 5px;
+}
+.surebutton
+{
+	float: right;
+	text-decoration: none;
+	font: medium / 1em Arial;
+	background: #E54551;
+	margin-right: 10px;
+	height: 21px;
+	width: 43px;
+	padding-top: 3px;
+	padding-left: 16px;
+	border-radius: 3px;
+	color: #FFFFFF;
+}
+.button
+{
+}
+.input-text
+{
+}
+.input-select
+{
+}
+.input-textarea
+{
+}
+.input-file
+{
+}
+.input-checkbox
+{
+}
+.top-bar
+{
+	background: #FFFFFF;
+	width: 575px;
+	height: 67px;
+	border: thin solid #C2C2C2;
+}
+.modetitle
+{
+	color: #DD5555;
+	font: normal 500 x-large / 1em Tahoma;
+	padding-top: 8px;
+	padding-left: 11px;
+}
+.breadcrumbs
+{
+	float: right;
+	margin-right: 18px;
+	color: #4A4A4A;
+}
+.tableticket
+{
+	width: 569px;
+}
+.textinput
+{
+}
+.textname
+{
+	font-weight: bold;
+	text-align: right;
+	color: #E54551;
+}
+.ticketcontent
+{
+	text-align: center;
+	font: italic 1em Arial;
+	margin-top: 14px;
+	background: #F7DCDC;
+	width: 94%;
+	margin-left: 3%;
+}
+.normalbar
+{
+	text-align: center;
+	background: #E54551;
+	width: 98%;
+	margin-left: 1%;
+	margin-top: 5px;
+	border-radius: 3px;
+	height: 19px;
+	padding-top: 4px;
+	color: #EFEFEF;
+}
+.commentlist
+{
+	width: 568px;
+	font: 1em Arial;
+}
+.username
+{
+}
+#customresponses
+{
+	margin-top: 17px;
+}
+#subbuttons
+{
+}
+#subbuttons A
+{
+	text-decoration: none;
+}
+.viewdoc
+{
+}
+.listing
+{
+	width: 100%;
+}
+.listing TH
+{
+	text-align: left;
+	color: #E9424F;
+}
+.listing TH.first
+{
+}
+.listing TH.last
+{
+}
+.listing TD.first
+{
+}
+.listing TD
+{
+}
+.content
+{
+	background: #FFFFFF;
+	border-radius: 5px;
+	margin-top: 7px;
+	font: normal normal 100 small / 1em Arial;
+}
+.listing TD.last
+{
+}
+.pageselect-title
+{
+}
+.pageselect
+{
+	text-align: right;
+}
+#selectpage
+{
+}
+.ticketlist
+{
+}
+.ticketlist TH
+{
+}
+.ticketlist TH.first
+{
+}
+.ticketlist TH.last
+{
+}
+.ticketstyle2
+{
+}
+.ticketstyle3
+{
+}
+#wikiandhelptable
+{
+}
+.leftmenu
+{
+	margin-top: 8px;
+}
+.leftmenunav
+{
+	list-style: none;
+	padding: 0;
+	margin: 3px 0px 0px 0;
+}
+.leftmenutitle
+{
+	text-align: center;
+	background: #E54551;
+	height: 21px;
+	padding-top: 6px;
+	font: small-caps small / 1em Arial;
+	color: #FFF;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+#top-navigation A
+{
+	text-decoration: none;
+	color: #CCCCCC;
+	font: normal normal 9.3pt Arial;
+}
+#top-navigation A:hover
+{
+	text-decoration: none;
+	color: #E9424F;
+	font: normal normal 9.3pt Arial;
+}
+.leftmenunav A
+{
+	text-decoration: none;
+	color: #7A7A7A;
+	font: normal small / 1em Arial;
+}
+.leftmenunav LI
+{
+	background: #E5E4E4;
+	height: 0px;
+	padding-top: 6px;
+	padding-left: 13px;
+	padding-bottom: 21px;
+}
+.leftmenunav A:hover
+{
+	color: #000000;
+}
+.top-bar A
+{
+	color: #7D7D7D;
+	text-decoration: none;
+	font: small / 1em Arial;
+}
+.listing TD A
+{
+	text-decoration: none;
+}
+.listing TD A:hover
+{
+	text-decoration: none;
+	color: #E10909;
+}
+A.ticketstyle1
+{
+}
+.commentlist TD
+{
+	background: #BBBBBB;
+}
+A.ticketstyle2
+{
+	color: #A0A0A1;
+}
+A.ticketstyle3
+{
+	color: #A0A0A1;
+}
+A.link
+{
+	text-decoration: none;
+	font: 100 small / 1em Arial;
+	/*[empty]color:;*/
+}
+#viewdoc
+{
+	width: 100%;
+}
+#viewdoc TD
+{
+	padding-left: 11px;
+	padding-top: 6px;
+}

@@ -1,0 +1,506 @@
+.panelbox
+{
+	float: right;
+	width: 73%;
+	padding: 5px;
+}
+.panelbox2
+{
+	width: 76%;
+	padding: 5px;
+}
+.title
+{
+	background: #5989D5 -webkit-gradient(linear, left top, left bottom, color-stop(0%,#81B1FD), color-stop(100%,#5989D5));
+	font: 12.3pt Calibri;
+	background: -moz-linear-gradient(top, #81B1FD, #5989D5);
+	background: -ms-linear-gradient(top, #81B1FD, #5989D5);
+	background: -o-linear-gradient(top, #81B1FD, #5989D5);
+	height: 21px;
+	text-align: center;
+	border-radius: 4px;
+	color: #FFFFFF;
+	font: 0.9em Arial;
+}
+.description
+{
+	text-indent: 0.8em;
+	font: italic normal 1em Calibri;
+	color: #404040;
+}
+.ubox
+{
+}
+.form-div
+{
+}
+.ntext
+{
+	font: small-caps 12pt Calibri;
+}
+.textarea-input
+{
+	resize: both;
+}
+.select-input
+{
+}
+.selector
+{
+}
+.button
+{
+	background: #5989D5 -webkit-gradient(linear, left top, left bottom, color-stop(0%,#81B1FD), color-stop(100%,#5989D5));
+	background: -moz-linear-gradient(top, #81B1FD, #5989D5);
+	background: -ms-linear-gradient(top, #81B1FD, #5989D5);
+	background: -o-linear-gradient(top, #81B1FD, #5989D5);
+	border: 1px solid #CDDBF0;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	font: normal 12.3pt Calibri;
+	padding: 5px 11px 5px 9px;
+	color: #FFF;
+	float: right;
+	margin-left: 9px;
+	cursor: pointer;
+	font: 100 10pt Arial;
+	text-transform: uppercase;
+	width: auto;
+}
+.top
+{
+	background: #5989D5 -webkit-gradient(linear, left top, left bottom, color-stop(0%,#81B1FD), color-stop(100%,#5989D5));
+	background: -moz-linear-gradient(top, #81B1FD, #5989D5);
+	background: -ms-linear-gradient(top, #81B1FD, #5989D5);
+	background: -o-linear-gradient(top, #81B1FD, #5989D5);
+	height: 25px;
+	padding-bottom: 2px;
+}
+.loginbar
+{
+	background: url(img/key.png) no-repeat 3px 4px;
+}
+.usertop
+{
+	font: normal 0.9em / 1.7 Arial;
+	color: #DFDFDF;
+	text-indent: 1.6em;
+	float: left;
+	background: #5989D5 -webkit-gradient(linear, left top, left bottom, color-stop(0%,#81B1FD), color-stop(100%,#5989D5));
+	height: 24px;
+	padding-bottom: 3px;
+}
+.usertop:hover
+{
+	color: #FFFFFF;
+}
+.close-session
+{
+	background: url(img/lock.png) no-repeat;
+	margin-right: -45px;
+	/*+placement:shift 5px 3px;*/
+	position: relative;
+	left: 5px;
+	top: 3px;
+}
+.icon-close
+{
+}
+.langmenu
+{
+	border: 0;
+	-webkit-appearance: none;
+	float: right;
+	font: 10.4pt Arial;
+	-webkit-appearance: none;
+	background: #FFFFFF;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	background-position: 82px 7px;
+	/*Position of the background-image*/
+	width: 73px;
+	/*Removes default arrow from firefox
+Removes default arrow from firefox*/
+	margin-right: 7px;
+	margin-top: 3px;
+}
+.langmenu-div
+{
+	float: right;
+	width: 40%;
+	height: initial;
+}
+.email-input
+{
+	border-radius: 3px;
+	background: url(img/user.png) no-repeat;
+	text-indent: 1.3em;
+	border-color: #888888;
+	border-width: 1px;
+	color: #6D6D6D;
+	width: 170px;
+}
+.text-input
+{
+	border-radius: 3px;
+	border-color: #888888;
+	border-width: 1px;
+	color: #6D6D6D;
+	width: 50%;
+}
+.pass-input
+{
+	border-color: #888888;
+	color: #6D6D6D;
+	border-radius: 3px;
+	border-width: 1px;
+	font: 10pt sans-serif;
+	width: 170px;
+}
+TABLE.infotable
+{
+}
+TABLE.infotable TD.infotable1
+{
+	width: 23%;
+	text-align: center;
+}
+TABLE.infotable TD.infotable2
+{
+	width: 30%;
+	text-align: left;
+	font: italic normal 10.3pt Calibri;
+}
+.ticketbox
+{
+}
+.ticketbox-title
+{
+	font: normal small-caps large / 1em Calibri;
+	margin-bottom: 5px;
+	border: 1px solid #DFDFDF;
+	border-radius: 4px;
+}
+.ticketbox-user
+{
+	float: left;
+	background: #DFDFDF url(img/user.png) no-repeat;
+	width: 75%;
+	text-indent: 1.3em;
+	border: 1px solid #DFDFDF;
+	border-radius: 4px;
+	font: medium / 1em Calibri;
+	text-align: left;
+}
+.ticketbox-date
+{
+	float: right;
+	font: medium / 1em Calibri;
+	background: #DFDFDF url(img/date.png) no-repeat;
+	width: 23%;
+	border: 1px solid #DFDFDF;
+	border-radius: 4px;
+	text-align: left;
+	text-indent: 0.9em;
+}
+.ticketbox-file
+{
+}
+.dateicon
+{
+}
+.ticketbox-content
+{
+	overflow: hidden;
+	text-align: center;
+	width: 90%;
+	/*[empty]background:;*/
+	border: 1px solid #DFDFDF;
+	margin-top: 31px;
+	font: italic 1em Calibri;
+}
+.commentstitle
+{
+	border: 1px solid #5989D5;
+	margin-top: 9px;
+	background: #E8EEFE url(img/comments.png) no-repeat 3px 3px;
+	border-radius: 4px;
+}
+.commentbox
+{
+	border: 1px solid #DFDFDF;
+	border-radius: 1px;
+	margin-top: 13px;
+	margin-bottom: 11px;
+}
+.comment-name-user
+{
+	float: left;
+	background: url(img/comment.png) no-repeat 2px 1px;
+	text-indent: 1.3em;
+	font: 1em Calibri;
+}
+.comment-name-staff
+{
+	float: left;
+	background: url(img/user_comment.png) no-repeat 2px 1px;
+	border-radius: 4px;
+	text-indent: 1.3em;
+	font: bold 1em Calibri;
+	color: #5989D5;
+}
+.commentbox-date
+{
+	float: right;
+	font: medium / 1em Calibri;
+	background: url(img/date.png) no-repeat;
+	width: 144px;
+}
+.commentbox-content
+{
+	margin-top: 26px;
+	font: small / 1em Calibri;
+}
+.responsetitle
+{
+}
+.responsebox
+{
+}
+.response-name-user
+{
+}
+.response-area
+{
+}
+.textarearesponse
+{
+}
+.panelmessage
+{
+}
+.successmessage
+{
+}
+.errormessage
+{
+}
+TABLE.ticketlist
+{
+	width: 100%;
+}
+TABLE.ticketlist TR.toptr
+{
+	font: italic small-caps 1em Calibri;
+}
+TABLE.ticketlist TD.toptd
+{
+	width: 42%;
+	font-weight: normal;
+}
+TABLE.ticketlist TR.trlist
+{
+}
+TABLE.ticketlist TD.tdlist
+{
+	font: italic 1em Calibri;
+}
+.idnumber
+{
+}
+.menupanel
+{
+	float: left;
+	width: 184px;
+}
+UL.panel-full
+{
+	list-style: none;
+	margin-left: -38px;
+}
+UL.panel-full LI.panel-line
+{
+	background: #D2D1E7;
+	border: 3px #E60404;
+	text-indent: 1.3em;
+	padding: 3px;
+}
+.main
+{
+	margin-top: 31px;
+	width: 100%;
+}
+.login
+{
+	display: inline;
+	text-align: left;
+	width: 169px;
+	padding: 10px;
+	float: left;
+}
+.email-field
+{
+}
+.pass-field
+{
+}
+.submit-field
+{
+}
+.box
+{
+	width: 212px;
+	padding: 10px;
+	float: left;
+	text-align: right;
+}
+.box_title
+{
+	background: #7FAFFB;
+	font: normal 12.4pt Calibri;
+}
+.dtext
+{
+	font: 1em Calibri;
+}
+.endbar
+{
+	text-align: center;
+	background: #5989D5 -webkit-gradient(linear, left top, left bottom, color-stop(0%,#81B1FD), color-stop(100%,#5989D5));
+	background: -moz-linear-gradient(top, #81B1FD, #5989D5);
+	background: -ms-linear-gradient(top, #81B1FD, #5989D5);
+	background: -o-linear-gradient(top, #81B1FD, #5989D5);
+	color: #FFFFFF;
+	overflow: hidden;
+	width: 100%;
+}
+.all
+{
+	-webkit-margin-start: auto;
+	-webkit-margin-end: auto;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-spacing: 0px;
+	width: 780px;
+}
+A
+{
+	color: #000000;
+	text-decoration: none;
+	font: 1em Calibri;
+}
+.upanel
+{
+	width: 100%;
+}
+.closet
+{
+	background: #DFDFDF url(img/bullet_key.png) no-repeat -1px -1px;
+	text-indent: 1.2em;
+	font: normal normal bold 11pt Calibri;
+	border: 1px solid #3434E8;
+	border-radius: 2px;
+}
+.opent
+{
+	text-indent: 0.1em;
+	font: normal normal bold 11pt Calibri;
+	background: #E4E4FC;
+	border: 1px solid #3434E8;
+	border-radius: 2px;
+}
+#menu-tickets
+{
+	background: #B8DBFF url(img/page.png) no-repeat 4px 3px;
+	border: 2px solid #6696E2;
+	border-radius: 5px;
+	margin-bottom: 3px;
+}
+#menu-new
+{
+	background: #B8DBFF url(img/page_add.png) no-repeat 4px 3px;
+	border: 2px solid #6696E2;
+	border-radius: 5px;
+	margin-bottom: 3px;
+}
+#menu-tickets:hover
+{
+	border-color: #E8EEFE;
+}
+#menu-new:hover
+{
+	border-color: #E8EEFE;
+}
+#menu-docs
+{
+	background: #B8DBFF url(img/folder_page.png) no-repeat 4px 3px;
+	border: 2px solid #6696E2;
+	border-radius: 5px;
+	margin-bottom: 3px;
+}
+#menu-docs:hover
+{
+	border-color: #E8EEFE;
+}
+#menu-edit
+{
+	background: #B8DBFF url(img/user_edit.png) no-repeat 4px 3px;
+	border: 2px solid #6696E2;
+	border-radius: 5px;
+	margin-bottom: 3px;
+}
+#menu-edit:hover
+{
+	border-color: #E8EEFE;
+}
+#departmentselect
+{
+}
+#langselect
+{
+}
+#create_user
+{
+	background: #7FAFFB url(img/user_add.png) no-repeat 2px 2px;
+	text-align: left;
+	text-indent: 1.2em;
+	font: 1em Calibri;
+}
+#about_articles
+{
+	background: #7FAFFB url(img/folder_page.png) no-repeat 2px 2px;
+	text-align: left;
+	text-indent: 1.2em;
+	font: 1em Calibri;
+}
+#check_ticket
+{
+	background: #7FAFFB url(img/page_find.png) no-repeat 2px 2px;
+	text-align: left;
+	text-indent: 1.2em;
+	font: 1em Calibri;
+}
+#submit_ticket
+{
+	background: #7FAFFB url(img/page_add.png) no-repeat 2px 2px;
+	text-align: left;
+	text-indent: 1.2em;
+	font: 1em Calibri;
+}
+.welcomediv
+{
+	text-align: left;
+}
+.welcometitle
+{
+	font-weight: bold;
+	color: #5F8FDB;
+	font: normal 22.5pt Arial;
+}
+.welcometext
+{
+	font: medium / 1em Calibri;
+}
