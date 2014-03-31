@@ -160,7 +160,7 @@ switch($_GET[id]){
 		$api->logs($TEXT['Users table has been truncated']);
 		header('Location: admin_main.php?mode=settings&submode=about&success=dropusers');
 	break;
-	case 'droptable':
+	case 'droptickets':
 		$api->drop_table("tickets");
 		$api->logs($TEXT['Tickets table has been truncated']);
 		header('Location: admin_main.php?mode=settings&submode=about&success=droptable');

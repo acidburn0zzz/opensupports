@@ -353,7 +353,7 @@ class API{
 	public function update_user_password($id, $password){
 		$hash = crypt($password);
 		$id = (int) $id;
-		if($this->query("UPDATE USERS SET pass='$hash' WHERE id='$id'")) return true;
+		if($this->query("UPDATE USERS SET password='$hash' WHERE id='$id'")) return true;
 		else return false;
 	}
 	

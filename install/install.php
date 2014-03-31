@@ -48,11 +48,6 @@ mysqli_query($conexion, 'CREATE TABLE `CODE` (
   KEY `id` (`id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;');
 
-mysqli_query($conexion, 'INSERT INTO CODE VALUES("","reCaptchaPlugin","codes/recaptcha_adminaction.php","admin/action.php","0")');
-mysqli_query($conexion, 'INSERT INTO CODE VALUES("","reCaptchaPlugin","codes/recaptcha_action.php","action.php","1")');
-mysqli_query($conexion, 'INSERT INTO CODE VALUES("","reCaptchaPlugin","codes/recaptcha_top.php","index.php","1")');
-mysqli_query($conexion, 'INSERT INTO CODE VALUES("","reCaptchaPlugin","codes/recaptcha_div.php","index.php","0")');
-
 mysqli_query($conexion, 'CREATE TABLE `COMMENTS` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `content` text COLLATE utf8_unicode_ci NOT NULL,
