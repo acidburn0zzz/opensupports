@@ -93,7 +93,7 @@ if($ticket['staffuser'] == $STAFF[user] && $ticket[isnew] == 1)
       <tr>
         <td height="50%"><?php
 		if($comment[isstaff])
-       		echo "<span class='username'". $comment[username]. '</span>';
+       		echo "<span class='username'>". $comment[username]. '</span>';
 		else
 			echo $comment[username] . ' (' . $comment[userid]. ')';
 		?></td>
