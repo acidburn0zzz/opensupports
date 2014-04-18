@@ -20,9 +20,7 @@
                         <textarea name="content" class='input-textarea' rows="15" cols="60"></textarea>
                         </td>
 					</tr>
-                    <?php
-					if($DATA['file-staff']){
-                    ?>
+
                     <tr>
 						<td class='formtext'>
                         <?php echo $TEXT['File'];?>
@@ -36,6 +34,5 @@
                         <input type="submit" class="button" value="<?php echo $TEXT['Submit']?>">
                         </td>
                     </tr>
-                    <?php } ?>
 				</table>
 </form>
