@@ -38,7 +38,7 @@
 						else if(!$ticket[isclosed]) echo "first style2";
 						else echo "first style3";
                         ?>" href="index.php?mode=ViewTickets&submode=Ticket%20Viewer&id=<?php echo $ticket[id];?>"><?php echo $ticket['title']; ?></a></div></td>
-						<td><?php echo $ticket['Department']; ?></td>
+						<td><?php echo $ticket['department']; ?></td>
                         <td><?php echo $ticket['last']; ?></td>
 						<td class="last"><?php echo $ticket['date']; ?></td>
 					</tr>
